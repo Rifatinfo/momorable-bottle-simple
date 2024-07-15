@@ -1,0 +1,16 @@
+.bottle{
+   
+  
+    padding : 10px ;
+    border-radius:  15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.bottle:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.bottle img {
+    width : 200px;
+}
